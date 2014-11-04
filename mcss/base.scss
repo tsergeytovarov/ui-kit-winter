@@ -1,0 +1,158 @@
+/* start the base fraimwork styles. Can include base construction - forms/buttins/navigation and other */
+
+/* modul section */
+
+.col{
+    float: left;
+    @extend .inbox;
+    padding: 0 25px;
+}
+
+.row{
+    margin-bottom: 40px;
+
+    .col{
+
+        &:first-child{
+            padding-left: 0px;
+        }
+
+        &:last-child{
+             padding-right: 0px;
+        }
+    }
+    
+    &:after{
+        @extend .clear;
+    }
+
+    .last{
+        margin-bottom: 0;
+    }
+
+}
+
+.s-1 {  width: 8.33% }
+.s-2 {  width: 16.66% }
+.s-3 {  width: 25% }
+.s-4 {  width: 33.33% }
+.s-5 {  width: 41.66% }
+.s-6 {  width: 50% }
+.s-7 {  width: 58.33% }
+.s-8 {  width: 66.66% }
+.s-9 {  width: 75% }
+.s-10 {  width: 83.11% }
+.s-11 {  width: 91.66% }
+.s-12 {  width: 100%; }
+
+/* main fraimwork start here */
+.inbox{
+	box-sizing: border-box;
+}
+.to-left{ float: left }
+.to-right{ float: right }
+.inline{
+    display: inline-block;
+    *display: inline;
+    vertical-align: top;
+    zoom: 1; 
+}
+.clear{
+	content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+.clearfix:after{ @extend .clear; }
+
+/* basic typography */
+
+body, html{
+    width: 100%;
+    height: 100%;
+}
+h1{
+   
+}
+h2{
+    
+}
+h3{
+   
+}
+h4{
+
+}
+h5{
+
+}
+h6{
+
+}
+p,li{
+    
+}
+strong, b{
+
+}
+a{
+    
+	&:hover{
+        
+	}
+}
+ul{
+    li{
+        
+    }
+}
+
+/* form style input and other */
+
+form{
+    input[type='text'], textarea{
+        box-sizing: border-box;
+        outline: none;
+        border: 0;
+        &:focus{
+        }
+    }
+    input::-webkit-input-placeholder{
+        
+    }
+    input::-moz-placeholde{
+        
+    }
+    label{
+        cursor: pointer;
+    }
+
+    button{
+        cursor: pointer;
+        outline: none;
+        margin: 0;
+    }
+}
+
+/* btn styles */
+.btn{
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+
+    &:hover{
+        
+    }
+
+    &:active{
+        
+    }
+
+    &.disabled{
+        
+    }
+}

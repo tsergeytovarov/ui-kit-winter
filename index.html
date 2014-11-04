@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <title></title>
+
+    <link rel="stylesheet" href="mcss/style.css">
+    <link rel="stylesheet" href="mcss/ui.css">
+
+    <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> <![endif]--> 
+
+</head>
+<body>
+
+	<!-- demo wrapper  -->
+
+	<div class="demo-wrapper">
+		
+		<!-- row with navigation -->
+		<div class="row">
+
+			<!-- navigation -->
+			<nav class='ui-navigation clearfix col-12'>
+				<a href="#">Home</a>
+				<a href="#">About</a>
+				<a href="#">Service</a>
+				<a href="#">Portfolio</a>
+				<a href="#">Contact Us</a>
+
+				<a href="#" class="ico ico-setting to-right">settings</a>
+
+			</nav>
+
+		</div>
+
+		<!-- row -->
+		<div class="row">
+			
+			<div class="col s-5">
+				
+				<!-- ui progress bar -->
+				<div class="ui-box active">
+					
+					<div class="header">
+						<h2>Upload and Download</h2>
+						<a href="#" class="toggled">toggled it</a>
+					</div>
+
+					<div class="content">
+						
+						<div class="ui-progress-bar blue">
+							<div class="inner"></div>
+							<p>Uploading... 71%</p>
+						</div>
+
+						<div class="ui-progress-bar black">
+							<div class="inner"></div>
+							<p>Downloading... 71%</p>
+						</div>
+
+					</div>
+
+				</div>
+
+
+				<!-- ui subscribe form -->
+				<div class="ui-box active">
+					
+					<div class="header">
+						<h2>Subscribe</h2>
+						<a href="#" class="toggled">toggled it</a>
+					</div>
+
+					<div class="content ui-subscribe-form">
+						
+						<form method="" action="">
+							
+							<div class="row">
+								
+								<div class="col s-8">
+									<input type="text" placeholder='Email address' />
+								</div>
+
+								<div class="col s-4">
+									<button type="submit" class="btn blue">Subscribe</button>
+								</div>
+
+							</div>
+
+						</form>
+
+					</div>
+
+				</div>
+
+
+			</div>
+
+			<!-- ui progress bar -->
+			<div class="col s-3">
+				
+				<!-- ui progress bar -->
+				<div class="ui-box active">
+					
+					<div class="header">
+						<h2>Weather</h2>
+						<a href="#" class="toggled">toggled it</a>
+					</div>
+
+					<div class="content ui-weather">
+						
+						<div class="row">
+							<div class="col s-6 icon"><i class='ico-rain'></i></div>
+							<div class="col s-6 temperature"><p>7<sup>o<sub>C</sub></sup></p></div>
+						</div>
+						
+						<div class="bottom">
+							<div class="row icons-sun">
+								<div class="col s-6 clearfix"><i class='ico-sun-up to-left'></i></div>
+								<div class="col s-6 clearfix"><i class='ico-sun-down to-right'></i></div>
+							</div>
+
+							<div class="row text-sun">
+								<div class="col s-6 "><p class="left">5:45</p></div>
+								<div class="col s-6 "><p class="right">19:28</p></div>
+							</div>
+
+							<div class="place">
+								<p>
+									<span>Alaska</span>
+									USA
+								</p>
+							</div>	
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+
+			<!-- ui profile card -->
+			<div class="col s-4">
+				
+				<!-- ui progress bar -->
+				<div class="ui-box active">
+					
+					<div class="header">
+						<h2>Profile Card</h2>
+						<a href="#" class="toggled">toggled it</a>
+					</div>
+
+					<div class="content ui-profile-card">
+						
+						<img src="img/profile.jpg" alt="" class="inline" />
+						<p class="inline">
+							Alan Podemski
+							<span>UI desinger</span>
+						</p>
+
+					</div>
+
+				</div>
+
+
+				<!-- ui check box -->
+				<div class="ui-box active">
+					
+					<div class="header">
+						<h2>Checkboxes</h2>
+						<a href="#" class="toggled">toggled it</a>
+					</div>
+
+					<div class="content">
+
+						<form method="" action="">
+
+							<div class="row">
+								
+								<div class="col s-6">
+									<input type="checkbox" id='ch1' class="blue" />
+									<label for='ch1'> Blue checkbox</label>
+								</div>
+
+								<div class="col s-6">
+									<input type="checkbox" id='ch2' class="black" />
+									<label for='ch2'> Black checkbox</label>
+								</div>
+
+							</div>
+
+							<div class="row last">
+								
+								<div class="col s-6">
+									<input type="radio" id='ch3' name="radio" class="blue" />
+									<label for='ch3'> Blue radio</label>
+								</div>
+
+								<div class="col s-6">
+									<input type="radio" id='ch4' name="radio" class="black" />
+									<label for='ch4'> Black radio</label>
+								</div>
+
+							</div>
+
+						</form>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+
+		<!-- row 2 -->
+		<div class="row">
+			
+			<div class="col s-5">
+				
+				<!-- buttins example -->
+				<div class="row">
+					<div class="col s-4"><button type="submit" class="btn blue">blue</button></div>
+					<div class="col s-4"><button type="submit" class="btn black">black</button></div>
+					<div class="col s-4"><button type="submit" class="btn gray">gray</button></div>
+				</div>
+
+			</div>
+
+			<div class="col s-7">
+				
+				<div class="ui-search-form">
+					
+					<form action="" method="">
+						<input type="text" placeholder='I’m looking for...'/>
+						<button type="submit" class="btn blue"><i class='ico-search'></i></button>
+					</form>
+
+				</div>
+
+			</div>
+
+		</div>
+
+
+		<!-- row 3 -->
+		<div class="row">
+			
+			<div class="col s-3 ui-login-form">
+				
+				<form>
+					<input type="text" placeholder='username' />
+					<input type="password" placeholder='password' />
+					<button type="submit" class="btn blue">login</button>
+				</form>
+				
+			</div>
+
+			<div class="col s-9">
+				
+
+			</div>
+
+		</div>
+
+	</div>
+	
+	<!-- scripts -->
+    <script src="js/plugins.js"></script>
+    <!-- <script src="js/min/script.min.js"></script> -->
+    <script src="js/script.js"></script>
+</body>
+</html>

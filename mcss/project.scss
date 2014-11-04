@@ -1,0 +1,22 @@
+/* start demo page */
+
+body{
+	background: url(img/background.jpg) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.demo-wrapper{
+	width: 100%;
+	min-width: 1500px;
+	padding: 60px 15px;
+	box-sizing: border-box;
+}
+
+.row .ui-box{
+	margin-bottom: 35px;
+
+	&:last-child{
+		margin-bottom: 0;
+	}
+}
